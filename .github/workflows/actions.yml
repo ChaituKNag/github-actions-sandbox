@@ -10,4 +10,4 @@ jobs:
         with:
           who-to-greet: Naga Konada
       - name: Log Greeting Time
-        run: echo ${{steps.greet.time}}
+        run: echo "${{steps.greet.time}}"
